@@ -1,0 +1,20 @@
+# Archivos del sistema (Mac)
+.DS_Store
+
+# Archivos temporales de VSCode
+.vscode/
+*.code-workspace
+
+# Archivos de sistema o caché
+Thumbs.db
+*.log
+
+# Node modules (si usaras npm más adelante)
+node_modules/
+
+# Archivos de build (si usas herramientas tipo Vite, Parcel, etc.)
+dist/
+build/
+
+# Archivos del Live Server
+*.local
