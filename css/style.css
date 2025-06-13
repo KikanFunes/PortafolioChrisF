@@ -567,15 +567,15 @@
   
 .badge-wip {
     position: absolute;
-    top: 10px;
-    left: -40px;
-    transform: rotate(-45deg);
-    background-color: rgba(255, 193, 7, 0.9); /* amarillo con transparencia */
-    color: black;
+    top: 12px;
+    left: 12px;
+    background-color: rgba(255, 193, 7, 0.95);
+    color: #000;
     font-weight: bold;
-    padding: 5px 50px;
-    font-size: 14px;
+    padding: 4px 10px;
+    font-size: 13px;
     z-index: 10;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     pointer-events: none;
 }
