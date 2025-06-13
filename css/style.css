@@ -600,3 +600,9 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+.alert-success {
+    color: white !important;
+    background-color: #28a745;
+    border-color: #218838;
+}
