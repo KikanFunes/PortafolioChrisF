@@ -606,3 +606,17 @@
     background-color: #28a745;
     border-color: #218838;
 }
+
+.badge-coming-soon {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #9c27b0; /* morado diferente a amarillo */
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 4px 12px;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}

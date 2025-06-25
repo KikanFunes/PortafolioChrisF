@@ -9,7 +9,10 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,7 +66,7 @@
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="#project" class="nav-item nav-link">Projects</a>
-                <a href="#team" class="nav-item nav-link">Blogs</a>
+                <a href="blog.html" class="nav-item nav-link">Blogs</a>
                 <a href="#testimonial" class="nav-item nav-link">References</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
@@ -88,7 +91,8 @@
                         <span class="symbol">&lt;</span>jr product manager<span class="symbol">&gt;</span>                          
                     </div>                    
                     <div class="d-flex align-items-center pt-5">
-                        <a href="" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <a href="docs/CV_ChristianFunes_EN.pdf" download class="btn btn-primary py-3 px-4 me-5">Download CV (EN)</a>
+
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
@@ -157,7 +161,7 @@
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Strong business & tech background</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Focused on practical solutions</p>
                     <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Clear communication & collaboration</p>
-                    <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="blog.html">Read More</a>
                 </div>
             </div>
         </div>
@@ -395,12 +399,18 @@
                     <div class="portfolio-img rounded overflow-hidden position-relative">
                         <span class="badge-wip">Work In Progress</span>
                         <div class="project-description">
-                            <p>Husfy Rent is a web app for managing rental contracts, performing automatic adjustments, and sending monthly notifications. Built with Node.js, React, and Prisma for efficient and modern management.</p>
+                            <p>HusfyRent is a web app that helps real estate agents automate rental property management.
+                                The public demo showcases the landlord module. For more details, visit the blog.</p>
                         </div>
                         <img class="img-fluid" src="img/husfyrent.png" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/husfyrent.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://github.com/KikanFunes/Husfy_Rent" 
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/husfyrent.png" data-lightbox="husfyrent"><i class="fa fa-eye"></i></a>
+                            <a href="img/singin_capture.png" data-lightbox="husfyrent" data-title="SignIn" style="display: none;"></a>
+                            <a href="img/menu_capture.png" data-lightbox="husfyrent" data-title="Menu" style="display: none;"></a>
+                            <a href="img/landlords_module_capture.png" data-lightbox="husfyrent" data-title="Landlords Module" style="display: none;"></a>
+                            <a href="img/properties_module_capture.png" data-lightbox="husfyrent" data-title="Properties Module" style="display: none;"></a>
+                            <a href="img/tenant_module_capture.png" data-lightbox="husfyrent" data-title="Tenants Module" style="display: none;"></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://husfy-rent-public-38f6.vercel.app/" 
                                 target="_blank" 
                                 rel="noopener noreferrer">
                             <i class="fa fa-link"></i></a>
@@ -424,12 +434,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first">
-                    <div class="portfolio-img rounded overflow-hidden">
-                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                <<div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden position-relative">
+                        <span class="badge-coming-soon">Coming Soon</span>
+                        <div class="project-description">
+                            A new way to manage customized plans for professionals. Planex gives you full control over every action taken for each client, helping you avoid invisible work and boost your productivity.
+                            More updates coming soon. 🚀
+                        </div>
+                        <img class="img-fluid" src="img/planexapp.png" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/planexapp.png" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="#"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                 </div>
@@ -540,7 +555,7 @@
                     <a class="btn btn-primary py-3 px-5" 
                         href="https://calendly.com/chrisfunes88" 
                         target="_blank" 
-                         rel="noopener noreferrer">
+                        rel="noopener noreferrer">
                         Book a meeting
                     </a>
                 </div>
